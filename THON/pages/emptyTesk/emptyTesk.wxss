@@ -1,0 +1,86 @@
+/* pages/emptyTesk/emptyTesk.wxss */
+.teskInfo{
+  width: 100%;
+}
+picker{
+  width: 68%;
+  text-align: right;
+  position: relative;
+}
+picker text{
+  display: inline-block;
+  margin-right: 60rpx;
+}
+.teskInfo .infoRow picker image{
+  position: absolute;
+  right: -5rpx;
+  top: 50%;
+  margin-top: -8rpx;
+  margin-left: 30rpx;
+  height: 16rpx;
+  width: 28rpx;
+  color: #333;
+  transform: rotate(270deg);
+}
+.teskInfo .infoRow input{
+  width: 65%;
+  text-align: right;
+}
+.crossY{
+  width: 0;
+  height: 26rpx;
+  margin: 0 30rpx;
+  border: 1rpx solid #999; 
+}
+.teskInfo .infoRow image.scan{
+  width: 44rpx;
+  height: 44rpx;
+  transform: rotate(0deg);
+}
+.teskBookImg{
+  width: 100%;
+  height: 272rpx;
+  text-align: center;
+  margin-top: 82rpx;
+}
+.teskBookImg .addBookImg{
+  width: 216rpx;
+  height: 272rpx;
+  border: none;
+  border-radius: 12rpx;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  margin-left: -108rpx;
+}
+.teskBookImg .addBookImg>.crossY{
+  position: absolute;
+  width: 0;
+  height: 100rpx;
+  top: 50%;
+  left: 50%;
+  margin: 0 auto;
+  margin-top: -50rpx;
+}
+.teskBookImg .addBookImg>.crossX{
+  position: absolute;
+  height: 0;
+  width: 100rpx;
+  top: 50%;
+  left: 50%;
+  margin-left: -50rpx;
+  border: 1rpx solid #999;
+}
+.teskBookImg image{
+  width: 216rpx;
+  height: 272rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -108rpx;
+  z-index: 10;
+}
+
+.btn{
+  margin-top: 262rpx;
+}
+

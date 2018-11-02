@@ -1,0 +1,53 @@
+<!--pages/homePage/homePage.wxml-->
+<view class='container'>
+  <swiper class='banner' autoplay='autoplay' indicator-dots='true'>
+    <block wx:for=" {{5}}">
+      <swiper-item>
+      <image src='../../images/banner.png' width='375' height='150' />
+      </swiper-item>
+    </block>
+  </swiper>
+  <view class='content'>
+    <view class='conTop'>
+      <view bindtap='jump' class='conTopLeft'>
+        <image src='../../images/readBtn.png'></image>
+        <text>阅读任务</text>
+      </view>
+      <text class='yLine'></text>
+      <view bindtap='jumpRank' class='conTopRight'>
+        <image src='../../images/listBtn.png'></image>
+        <text>排行榜</text>
+      </view>
+      <view class='conText'>
+        <text class='h1'>一千零一夜</text>
+        <text class=''>第<text class='checkDate'>7</text>天打卡</text>
+      </view>
+      <navigator class='btn' url='../checkRecord/checkRecord'>
+        <text>今日任务</text>
+        <image src='../../images/doubleArrow.png' class='book'></image>
+      </navigator>
+      <image class='ad' src='../../images/list_img.png'></image>
+    </view>
+  </view>
+  <view class='adBar'>
+    <image src='../../images/recommend.png'></image>
+  </view>
+  <navigator url='../xiangqing/xiangqing' class='bookCard' wx:for="{{5}}">
+    <image src='../../images/list_img.png'></image>
+    <view class='cardInfo'>
+      <text class='h h1'>一千零一夜</text>
+      <text class='h author'>安徒生（著）/王瑞琴（译）</text>
+      <text class='h publish'>上海交通大学出版社</text>
+    </view>
+    <view class='score'>
+      <image src='../../images/lightStar.png'></image>
+      <image src='../../images/lightStar.png'></image>
+      <image src='../../images/lightStar.png'></image>
+      <image src='../../images/lightStar.png'></image>
+      <image src='../../images/darkStar.png'></image>
+    </view>
+    <text class='scoreCode'>10.0</text>
+  </navigator>
+</view>
+<view class='loadmore loading' wx:if="{{hasMore}}">正在加载...</view>
+<view class='loadmore'>没有更多了!</view>

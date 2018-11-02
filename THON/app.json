@@ -1,0 +1,53 @@
+{
+  "pages": [
+    "pages/homePage/homePage",
+    "pages/rankPage/rankPage",
+    "pages/student/student",
+    "pages/duhougan/duhougan",
+    "pages/Select students/Select students",
+    "pages/my/my",
+    "pages/haoshu/index",
+    "pages/checkRecord/checkRecord",
+    "pages/createTesk/createTesk",
+    "pages/emptyTesk/emptyTesk",
+    "pages/checkPage/checkPage",
+    "pages/readMission/readMission",
+    "pages/patriarchInfo/patriarchInfo",
+    "pages/login/login",
+    "pages/index/index",
+    "pages/xiangqing/xiangqing",
+    "pages/logs/logs",
+    "pages/reading-read/reading-read",
+    "pages/muchildren/muchildren"
+  ],
+  "window": {
+    "backgroundTextStyle": "dark",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "一千零一夜",
+    "enablePullDownRefresh": true,
+    "onReachBottomDistance": true,
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/homePage/homePage",
+        "text": "阅读",
+        "iconPath": "images/closeEye.png",
+        "selectedIconPath": "images/openEye.png"
+      },
+      {
+        "pagePath": "pages/haoshu/index",
+        "text": "好书",
+        "iconPath": "images/openBook.png",
+        "selectedIconPath": "images/closeBook.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/closeMine.png",
+        "selectedIconPath": "images/openMine.png"
+      }
+    ]
+  }
+}

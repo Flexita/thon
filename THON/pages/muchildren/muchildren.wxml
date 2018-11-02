@@ -1,0 +1,45 @@
+<!--pages/mychildren/mychildren.wxml-->
+<view class='head'>
+  <view class='head_ler' bindtap='borclick'></view>
+  <view class='head_rig'>
+    <text class='name'>朱小凯</text>
+    <image src='../../images/con_j.png' class='conj'></image>
+    <text class="con_k">3课程</text>
+    <text class="con_k_ler">8000学分</text>
+    <text class='ming'>明镜教育新区校区</text>
+    <view class='con_let_box'>
+      <image src='../../images/con_f.png' class='conf'></image>
+      <text class='con_cao'>草桥中学</text>
+      <image src='../../images/con_q.png' class='confs'></image>
+      <text class='con_caos'>六年级二班</text>
+    </view>
+    <view class='con_bot'>
+      <image src='../../images/con_l.png' class='conl'></image>
+      <text class='datanum'>2018年09月08日</text>
+    </view>
+  </view>
+</view>
+<view class='head'>
+  <view class='head_ler'bindtap='borclick'></view>
+  <view class='head_rig'>
+    <text class='name'>朱小凯</text>
+    <image src='../../images/con_j.png' class='conj'></image>
+    <text class="con_k">3课程</text>
+    <text class="con_k_ler">8000学分</text>
+    <text class='ming'>明镜教育新区校区</text>
+    <view class='con_let_box'>
+      <image src='../../images/con_f.png' class='conf'></image>
+      <text class='con_cao'>草桥中学</text>
+      <image src='../../images/con_q.png' class='confs'></image>
+      <text class='con_caos'>六年级二班</text>
+    </view>
+    <view class='con_bot'>
+      <image src='../../images/con_l.png' class='conl'></image>
+      <text class='datanum'>2018年09月08日</text>
+    </view>
+  </view>
+</view>
+<view bindtap='imgclick'>
+  <image src='../../images/con_c.png' class='conc_img' bindtap='contclick'></image>
+</view>
+

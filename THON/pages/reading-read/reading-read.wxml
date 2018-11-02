@@ -1,0 +1,49 @@
+<!--pages/reading/reading.wxml-->
+<view class='header'>
+  <view class='header_top_box'>
+    <view class='head_img_ler'>
+      <image src='../../images/list_img.png'></image>
+    </view>
+      <text class='head_fon_ler'>一千零一夜</text>
+  </view>
+  <view class='head_bott_let'>
+    <view class='head_bott_box'>
+      <view class='head_cong_ler'>
+        <text class='conbox_num'>10<text class='cont_e_ler'>8月</text></text>
+      </view>
+      <view class='conbox_rig_ler'>
+        <text class='con_d_fon'>打卡<text class='con_test_num'>7/20天</text></text>
+        <text class='con_lernum'>P999-P1020   耗时30分</text>
+        <text class='con_content'>读了很多书读了很多书读了很多书读了很多读了很多书读了很多书读了很多书读了很多读了很多书读了很多书读了很多书读了很多</text>
+        <view class='conimgbox'>
+          <view class='conbox_public'><image src='../../images/book01.png'></image></view>
+          <view class='conbox_public'><image src='../../images/book02.png'></image></view>
+          <view class='conbox_public'><image src='../../images/book01.png'></image></view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='header_top_box'>
+    <view class='head_img_ler'>
+      <image src='../../images/list_img.png'></image>
+    </view>
+      <text class='head_fon_ler'>一千零一夜</text>
+  </view>
+  <view class='head_bott_let'>
+    <view class='head_bott_box'>
+      <view class='head_cong_ler'>
+        <text class='conbox_num'>10<text class='cont_e_ler'>8月</text></text>
+      </view>
+      <view class='conbox_rig_ler'>
+        <text class='con_d_fon'>打卡<text class='con_test_num'>7/20天</text></text>
+        <text class='con_lernum'>P999-P1020   耗时30分</text>
+        <text class='con_content'>读了很多书读了很多书读了很多书读了很多读了很多书读了很多书读了很多书读了很多读了很多书读了很多书读了很多书读了很多</text>
+        <view class='conimgbox'>
+          <view class='conbox_public'><image src='../../images/book01.png'></image></view>
+          <view class='conbox_public'><image src='../../images/book02.png'></image></view>
+          <view class='conbox_public'><image src='../../images/book01.png'></image></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

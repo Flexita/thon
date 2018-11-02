@@ -1,0 +1,74 @@
+/* pages/checkRecord/checkRecord.wxss */
+.content{
+  padding: 160rpx 0 0;
+  background: #fff;
+}
+.littleBtn{
+  position: absolute;
+  width: 246rpx;
+  top: 54rpx;
+  overflow: visible;
+  border: 0;
+  text-align: right;
+  font-size: 30rpx;
+}
+.littleBtn text{
+  margin-right: 10rpx;
+}
+.littleBtn .btnImg{
+  width: 72rpx;
+  height: 90rpx;
+  border: 6rpx solid #fff;
+  border-radius: 4.4rpx;
+  position: absolute;
+  bottom: 6rpx;
+  left: 24rpx;
+}
+.littleBtn .rightArrow{
+  height: 28rpx;
+  width: 16rpx;
+  margin-right: 30rpx;
+}
+
+.content .recordCard{
+  width: 100%;
+  font-size: 28rpx;
+  display: flex;
+  flex-direction: row;
+  padding: 42rpx 30rpx;
+  box-sizing: border-box;
+  border-bottom: 1rpx solid #eee;
+}
+.content .recordCard .recordDate{
+  width: 120rpx;
+  height: 100%;
+  margin-right: 54rpx;
+}
+.content .recordCard .recordDate .recordDay{
+  font-size: 64rpx;
+}
+.recordInfo{
+  width: 518rpx;
+}
+.h1 text{
+  color: #32bbf5;
+}
+.recordPage{
+  color: #666;
+}
+.recordPage text{
+  margin-left: 30rpx;
+}
+.h{
+  line-height: 28rpx;
+}
+.recordImg{
+  margin-top: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.recordImg image{
+  width: 164rpx;
+  height: 164rpx;
+}

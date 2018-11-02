@@ -1,0 +1,132 @@
+/* pages/my/my.wxss */
+page{
+  background: #f5f5f5;
+}
+.header{
+  width:100%;
+  height:260rpx;
+  background: white;
+  margin-top:2rpx;
+  overflow: hidden;
+  margin-bottom:28rpx;
+}
+.header_left{
+  width:160rpx;
+  height:160rpx;
+  background:#eee;
+  border-radius: 50%;
+  margin-top:50rpx;
+  margin-left:30rpx;
+  float:left;
+}
+.header_left image{
+  width: 160rpx;
+  height: 160rpx;
+  border-radius: 50%;
+}
+.header_right{
+  width:500rpx;
+  height:133rpx;
+  margin-top:65rpx;
+  margin-right:30rpx;
+  float:right;
+}
+.head_con_ler{
+  width:100%;
+  height:64rpx;
+  display: block;
+}
+.name_con{
+  font-size: 40rpx;
+  color:#333;
+  line-height: 64rpx;
+  float:left;
+}
+.names{
+  width:95rpx;
+  height:35rpx;
+  background:#32bbf5;
+  border-radius:16rpx;
+  font-size:24rpx;
+  color:white;
+  text-align:center;
+  line-height:35rpx;
+  float:left;
+  margin-top:18rpx;
+  margin-left:14rpx;
+}
+.cont_num{
+  color:#32bbf5;
+ font-size:36rpx;
+ line-height:69rpx;
+ margin-left:20rpx;
+
+}
+.cont_bott{
+  width:100%;
+  height:56rpx;
+}
+.conl{
+  width:34rpx;
+  height:28rpx;
+  margin-top:27rpx;
+  float:left;
+}
+.con_school{
+  font-size: 28rpx;
+  color:#666;
+  float:left;
+  line-height:84rpx;
+  margin-left:20rpx;
+}
+.conq{
+  margin-left:70rpx;
+}
+.content_list{
+  width:100%;
+}
+.contentbox_list{
+  width:100%;
+  height:100rpx;
+}
+.contentbox_lists
+{
+  width:100%;
+  height:100rpx;
+  margin-top:28rpx;
+}
+.contlist{
+  width:100%;
+  height:100rpx;
+  margin-top:4rpx;
+  float:left;
+  background: white;
+}
+.cont_ler_list{
+  width:109rpx;
+  height:100%;
+  float:left;
+}
+.stuIMg{
+  width:28rpx;
+  height: 36rpx;
+  margin-top:32rpx;
+  margin-left:38rpx;
+}
+.stu_stu_font{
+  font-size: 32rpx;
+  color:#333;
+  line-height:107rpx;
+  float:left;
+}
+.conr_ler{
+  width:16rpx;
+  height:27rpx;
+  float:right;
+  margin-top:42rpx;
+  margin-right:38rpx;
+
+}
+.top{
+  margin-top:46rpx;
+}

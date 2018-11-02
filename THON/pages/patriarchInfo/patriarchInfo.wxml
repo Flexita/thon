@@ -1,0 +1,55 @@
+<!--pages/patriarchInfo/patriarchInfo.wxml-->
+<view class='container'>
+<view class='info'>
+  <view class='infoRow'>
+    <text>头像</text>
+    <image class='iconImg' src='../../images/head.jpg'></image>
+  </view>
+  <view class='infoRow'>
+    <text>昵称</text><input type='text' value='尹小虎'></input>
+  </view>
+  <view class='infoRow'>
+    <text>关系</text>
+    <picker mode = "selector" range="{{relations}}"  bindchange="selectRelation">
+      <view class='picker'>
+        <text>{{relation}}</text>
+      </view>
+    </picker>
+  </view>
+  <view class='infoRow'>
+    <text>电话</text><input type='text' value='18127369833'></input>
+  </view>
+  <view class='infoRow'>
+    <text>生日</text>
+    <picker mode="date" value="{{date}}" start="1973-12-31" end="2999-12-31" bindchange="bindDateChange">
+      <text class="picker">{{date}}</text>
+    </picker>
+  </view>
+  <view class='infoRow'>
+    <text>住址</text>
+    <picker mode="region" bindchange="bindRegionChange" value="{{region}}" custom-item="{{customItem}}">
+      <view class="picker">
+        {{region[0]}}，{{region[1]}}，{{region[2]}}
+      </view>
+    </picker>
+  </view>
+  <view class='infoRow' style='margin-top:20rpx;'>
+    <text>职业</text>
+    <picker mode = "selector" range="{{professions}}"  bindchange="selectProfession">
+      <view class='picker'>
+        <text class='head_rigs'>{{profession}}</text>
+      </view>
+    </picker>
+  </view>
+  <view class='infoRow'>
+    <text>学历</text>
+    <picker mode = "selector" range="{{educations}}"  bindchange="selectEducation">
+      <view class='picker'>
+        <text>{{education}}</text>
+      </view>
+    </picker>
+  </view>
+  <navigator url='../student/student' class='btn'><text>下一步</text></navigator>
+  <button class='jumpOver'>跳过</button>
+</view>
+</view>

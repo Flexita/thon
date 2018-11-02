@@ -1,0 +1,24 @@
+<!--pages/checkRecord/checkRecord.wxml-->
+<view class='content'>
+  <navigator url='../checkPage/checkPage' class='littleBtn'>
+    <image class='btnImg' src='../../images/list_img.png'></image>
+    <text>打卡</text>
+    <image class='rightArrow' src='../../images/rightArrow.png'></image>
+  </navigator>
+  <view class='recordCard' wx:for='{{6}}'>
+    <view class='recordDate'>
+      <text class='recordDay'>10</text>
+      <text class='recordMonth'>8月</text>
+    </view>
+    <view class='recordInfo'>
+      <text class='h h1'>打卡<text>7/20天</text></text>
+      <text class='h recordPage'>P999-P1020<text>耗时30分</text></text>
+      <text>读了很多书读了很多书读了很多书读了很多书读了很多书读了很多书读了很多书读了很多书很多书读了很多书读了</text>
+      <view class='recordImg'>
+        <image src='../../images/book01.png'></image>
+        <image src='../../images/book02.png'></image>
+        <image src='../../images/book01.png'></image>
+      </view>
+    </view>
+  </view>
+</view>

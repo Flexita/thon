@@ -1,0 +1,81 @@
+<!--pages/my/my.wxml-->
+<view class='header'>
+  <view class='header_left'>
+    <image src='../../images/head.jpg'></image>
+  </view>
+  <view class='header_right'>
+    <view class='head_con_ler'>
+      <text class='name_con'>张依依</text>
+      <text class='names'>共打卡</text>
+      <text class='cont_num'>199天</text>
+    </view>
+    <view class='cont_bott'>
+    <image src='../../images/con_l.png' class='conl'></image>
+    <text class='con_school'>草桥中学</text>
+
+    <image src='../../images/con_q.png' class='conl conq'></image>
+    <text class='con_school'>六年级二班</text>
+    </view>
+  </view>
+</view>
+
+<navigator url='../muchildren/muchildren'>
+  <view class='contentbox_list'>
+    <view class='contlist'>
+      <view class='cont_ler_list'>
+        <image src='../../images/name.png' class='stuIMg'></image>
+      </view>
+      <text class='stu_stu_font'>我的孩子</text>
+      <image src='../../images/con_r.png' class='conr_ler'></image>
+    </view>
+  </view>
+  </navigator>
+
+<navigator url='../student/student'>
+  <view class='contentbox_list'>
+    <view class='contlist'>
+      <view class='cont_ler_list'>
+        <image src='../../images/stu_01.png' class='stuIMg'></image>
+      </view>
+      <text class='stu_stu_font'>学生信息</text>
+      <image src='../../images/con_r.png' class='conr_ler'></image>
+    </view>
+  </view>
+  </navigator>
+  <!-- 22 -->
+  <navigator url='../reading-read/reading-read'>
+    <view class='contentbox_list' bindtap='contlist'>
+      <view class='contlist'>
+        <view class='cont_ler_list'>
+          <image src='../../images/read.png' class='stuIMg'></image>
+        </view>
+        <text class='stu_stu_font'>阅读记录</text>
+        <image src='../../images/con_r.png' class='conr_ler'></image>
+      </view>
+    </view>
+  </navigator>
+
+  <navigator url='../Select students/Select students'>
+    <view class='contentbox_list'>
+      <view class='contlist'>
+        <view class='cont_ler_list'>
+          <image src='../../images/xuan.png' class='stuIMg'></image>
+        </view>
+        <text class='stu_stu_font'>选择学生</text>
+        <image src='../../images/con_r.png' class='conr_ler'></image>
+      </view>
+    </view>
+  </navigator>
+<!-- </view> -->
+<view class='contentbox_lists top'>
+    <view class='contlist'>
+      <view class='cont_ler_list'>
+        <image src='../../images/end.png' class='stuIMg'></image>
+      </view>
+      <text class='stu_stu_font'>退出</text>
+      <image src='../../images/con_r.png' class='conr_ler'></image>
+    </view>
+  </view>
+
+
+

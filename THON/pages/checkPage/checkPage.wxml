@@ -1,0 +1,35 @@
+<!--pages/checkPage/checkPage.wxml-->
+<!-- 今日打卡 -->
+<view class='container'>
+  <view class='infoRow'>
+    <text>阅读书籍</text>
+    <input type='text' value='一千零一夜'></input>
+  </view>
+  <view class='infoRow pageNo'>
+    <text class='rowHead'>阅读页码</text>
+    <text>P</text>
+    <input type='text' value='' placeholder='开始页码'></input>
+    <text>至P</text>
+    <input type='text' value='' placeholder='结束页码'></input>
+  </view>
+  <view class='infoRow'>
+    <text>阅读时长</text>
+    <input type='text' value=''></input>
+    <text>分</text>
+  </view>
+  <view class='review'>
+    <textarea auto-height placeholder='这一刻你的想法···' maxlength='120'>
+    </textarea>
+    <view class='reviewImage'>
+        <image src='../../images/book01.png'></image>
+        <image src='../../images/book02.png'></image>
+        <view class='addImg'>
+          <text class='crossX'></text>
+          <text class='crossY'></text>
+        </view>
+    </view>
+    <navigator class='btn' url='../checkRecord/checkRecord'>
+      <text>确认</text>
+    </navigator>
+  </view>
+</view>

@@ -1,0 +1,100 @@
+<!--pages/index_index/index.wxml-->
+<view class='header'>
+  <view class="header_box">
+    <view class='header_let'>
+      <view class="header_ler wx:if='{{fontId == 1?'fonts':''}}'" bindtap='onclick' data-id='1'>国学经典 </view>
+      <text class="bottId wx:if='{{fontId == 1?'bottIds':''}}'"></text>
+    </view>
+    <view class='header_let'>
+      <view class="header_ler wx:if='{{fontId == 2?'fonts':''}}'" bindtap='onclick' data-id='2'>童话故事 </view>
+      <text class="bottId wx:if='{{fontId == 2?'bottIds':''}}'"></text>
+    </view>
+    <view class='header_let'>
+      <view class="header_ler wx:if='{{fontId == 3?'fonts':''}}'" bindtap='onclick' data-id='3'>十万个为什么 </view>
+      <text class="bottId wx:if='{{fontId == 3?'bottIds':''}}'"></text>
+    </view>
+  </view>
+  <view class='clias'  bindtap="fontclick">一年级</view>
+</view>
+<!-- 遮罩层 -->
+<view class='opacty' hidden="{{page}}" bindtap='opaclick' catchtouchmove="ture"></view>
+  <view class='opac_box' hidden="{{page}}" catchtouchmove="ture">
+  <text class='opac_clar'>选择年级</text>
+    <view class='opac_box_ler'>
+      <text class='cont_opac'>学前班</text>
+      <text class='public_sui'>0-4岁</text>
+      <text class='public_sui'>0-4岁</text>
+    </view>
+    <view class='opac_box_ler'>
+      <text class='cont_opac'>小学</text>
+      <text class='public_sui'>0-4岁</text>
+      <text class='public_sui'>0-4岁</text>
+    </view>
+    <view class='opac_box_ler'>
+      <text class='cont_opac'>初中</text>
+      <text class='public_sui'>0-4岁</text>
+      <text class='public_sui'>0-4岁</text>
+    </view>
+    <view class='opac_box_ler'>
+      <text class='cont_opac'>高中</text>
+      <text class='public_sui'>0-4岁</text>
+      <text class='public_sui'>0-4岁</text>
+    </view>
+</view>
+
+
+
+
+<view class='banner'>
+<image src='../../images/banner.png'></image>
+</view>
+<view class='list'>
+  <view class='list_left'>
+    <image src='../../images/list_img.png'></image>
+  </view>
+  <view class='list_right' bindtap='jump'>
+    <text class='public_y'>一千零一夜</text>
+    <text class='public_font'>安徒生(著) / 王瑞琴(译)</text>
+    <text class='public_font'>上海交通大学出版社</text>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <text class='list_num'>10.0</text>
+  </view>
+</view>
+<view class='list'>
+  <view class='list_left'>
+    <image src='../../images/list_img.png'></image>
+  </view>
+  <view class='list_right'>
+    <text class='public_y'>一千零一夜</text>
+    <text class='public_font'>安徒生(著) / 王瑞琴(译)</text>
+    <text class='public_font'>上海交通大学出版社</text>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <text class='list_num'>10.0</text>
+  </view>
+</view>
+<view class='list'>
+  <view class='list_left'>
+    <image src='../../images/list_img.png'></image>
+  </view>
+  <view class='list_right'>
+    <text class='public_y'>一千零一夜</text>
+    <text class='public_font'>安徒生(著) / 王瑞琴(译)</text>
+    <text class='public_font'>上海交通大学出版社</text>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <image src='../../images/con_xing2.png' class='xingImg'></image>
+    <text class='list_num'>10.0</text>
+  </view>
+</view>
+
+

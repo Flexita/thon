@@ -1,0 +1,98 @@
+/* pages/reading/reading.wxss */
+page{
+  background:#f5f5f5;
+}
+.header{
+  width:100%;
+  background:white;
+  margin-top:1rpx;
+}
+.header_top_box{
+  width:100%;
+  height:163rpx;
+}
+.head_img_ler{
+  width:72rpx;
+  height:90rpx;
+  float:left;
+  margin-left:37rpx;
+  margin-top:39rpx;
+}
+.head_img_ler image{
+  width:100%;
+  height:100%;
+}
+.head_fon_ler{
+  color: #32bbf5;
+  font-size: 44rpx;
+  float:left;
+  line-height:168rpx;
+  margin-left:60rpx;
+}
+.head_bott_let{
+  width:100%;
+  height:500rpx;
+}
+.head_bott_box{
+  width:91%;
+  height:100%;
+  margin:auto;
+  position: relative;
+  margin-bottom: 1rpx;
+}
+.head_cong_ler{
+  width:131rpx;
+  height:87rpx;
+}
+.conbox_num{
+  font-size: 64rpx;
+  color:black;
+}
+.cont_e_ler{
+  font-size:26rpx;
+}
+.conbox_rig_ler{
+  width:500rpx;
+  height:98%;
+  padding-top:10rpx;
+  position: absolute;
+  top:0;
+  right:0;
+}
+.con_d_fon{
+  font-size:36rpx;
+  color: #333;
+}
+.con_test_num{
+  font-size:36rpx;
+  color:#32bbf5;
+  margin-left:20rpx;
+}
+.con_lernum{
+  font-size: 28rpx;
+  color: #666;
+  display: block;
+  margin-top:15rpx;
+}
+.con_content{
+  display: block;
+  font-size: 28rpx;
+  color: #333;
+  margin-top:15rpx;
+}
+.conimgbox{
+  width:100%;
+  height:185rpx;
+  margin-top:38rpx;
+  display: flex;
+  justify-content: space-between;
+}
+.conbox_public{
+  width:150rpx;
+  height:150rpx;
+  float:left;
+}
+.conbox_public image{
+  width:100%;
+  height:100%;
+}

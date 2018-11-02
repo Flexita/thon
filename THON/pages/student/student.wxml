@@ -1,0 +1,63 @@
+<!--pages/student/student.wxml-->
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view class='headborder'>
+    <view class='head_con edit-righr-bar' bindtap='pic'>
+      <image src='../../images/photo.png' class='photo'></image>
+    </view>
+    <text class='student'>学生照片</text>
+</view>
+
+
+<view class='header_box' style='margin-top:1rpx;'>
+  <view class='head_ler'>
+    <text class='head'>学生姓名<text class='clored'>*</text></text>
+    <text class='head_rigs'>朱小狐</text>
+  </view>
+</view>
+
+<view class='header_box' style='margin-top:2rpx;'>
+  <picker mode = "selector" range="{{prevents}}"  bindchange="tabclickeds">
+    <view class='head_ler'>
+      <text class='head'>性别<text class='clored'>*</text></text>
+      <text class='head_rigs'>{{preventads}}</text>
+    </view>
+  </picker>
+</view>
+
+<view class='header_box' style='margin-top:2rpx;'>
+  <picker mode="date" value="{{date}}" start="1978-01-01" end="2017-1-23" bindchange="bindDateChange">
+    <view class='head_ler'>
+      <text class='head'>日期</text>
+      <text class='head_rigs'> {{dates}}</text>
+    </view>
+  </picker>
+</view>
+
+<view class='header_box' style='margin-top:2rpx;'>
+  <view class='head_ler'>
+    <text class='head'>证件号</text>
+    <input class='head_rigs'>1328090897</input>
+  </view>
+</view>
+<view class='header_box' style='margin-top:30rpx;'>
+  <view class='head_ler'>
+    <text class='head'>就读学校<text class='clored'>*</text></text>
+    <input class='head_rigs'>1328090897</input>
+  </view>
+</view>
+
+<view class='header_box' style='margin-top:2rpx;'>
+  <view class='head_ler'>
+    <text class='head'>年级<text class='clored'>*</text></text>
+   <input class='head_rigs'>1328090897</input>
+  </view>
+</view>
+<view class='header_box' style='margin-top:2rpx;'>
+  <view class='head_ler'>
+    <text class='head'>班级</text>
+    <input class='head_rigs'>1328090897</input>
+  </view>
+</view>
+
+<button bindtap='jump' class='btn'formType="submit">保存</button>
+</form>

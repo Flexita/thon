@@ -1,0 +1,40 @@
+<!--pages/emptyTesk/emptyTesk.wxml-->
+<view class='container'>
+  <view class='teskInfo'>
+    <view class='infoRow'>
+      <text>阅读书籍</text>
+      <input type='text' value='' placeholder='输入书籍名称'></input>
+      <view class='crossY'></view>
+      <image src='../../images/scan.png' class='scan' bindtap="click"></image>
+    </view>
+    <view class='infoRow'>
+      <text>开始时间</text>
+      <picker mode="date" value="{{startDate}}" start="1973-12-31" end="2999-12-31" bindchange="bindDateChangeStart">
+        <text class="picker">{{startDate}}</text>
+        <image src='../../images/arrow.png'></image>
+      </picker>
+    </view>
+    <view class='infoRow'>
+      <text>结束时间</text>
+      <picker mode="date" value="{{stopDate}}" start="1973-12-31" end="2999-12-31" bindchange="bindDateChangeStop">
+        <text class="picker">{{stopDate}}</text>
+        <image src='../../images/arrow.png'></image>
+      </picker>
+    </view>
+    <view class='infoRow'>
+      <text>阅读时长</text>
+      <input type='text' value='' placeholder='输入阅读天数' style='margin-right:-30rpx;'></input>
+      <text>天</text>
+    </view>
+    <view class='teskBookImg' bindtap='addBook'>
+      <image src='{{bookUrl}}'></image>
+      <view class='addBookImg' >
+        <view class='crossX'></view>
+        <view class='crossY'></view>
+      </view>
+    </view>
+  </view>
+  <navigator url='../createTesk/createTesk' class='btn'>
+    <text>创建</text>
+  </navigator>
+</view>

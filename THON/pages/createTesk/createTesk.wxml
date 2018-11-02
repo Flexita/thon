@@ -1,0 +1,35 @@
+<!--pages/createTesk/createTesk.wxml-->
+<!-- 创建任务 -->
+<view class='container'>
+  <view class='teskInfo'>
+    <view class='infoRow'>
+      <text>阅读书籍</text>
+      <input type='text' value='一千零一夜'></input>
+    </view>
+    <view class='infoRow'>
+      <text>开始时间</text>
+      <picker mode="date" value="{{startDate}}" start="1973-12-31" end="2999-12-31" bindchange="bindDateChangeStart">
+        <text class="picker">{{startDate}}</text>
+        <image src='../../images/arrow.png'></image>
+      </picker>
+    </view>
+    <view class='infoRow'>
+      <text>结束时间</text>
+      <picker mode="date" value="{{stopDate}}" start="1973-12-31" end="2999-12-31" bindchange="bindDateChangeStop">
+        <text class="picker">{{stopDate}}</text>
+        <image src='../../images/arrow.png'></image>
+      </picker>
+    </view>
+    <view class='infoRow'>
+      <text>阅读时长</text>
+      <input type='text' value=''></input>
+      <text>天</text>
+    </view>
+    <view class='teskBookImg'>
+      <image src='../../images/list_img.png'></image>
+    </view>
+  </view>
+  <button bindtap='jump' class='btn'>
+    <text>创建</text>
+  </button>
+</view>

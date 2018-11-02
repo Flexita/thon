@@ -1,0 +1,27 @@
+<!--pages/Select students/Select students.wxml-->
+<view class='content'>
+    <view class='content_box'>
+      <view class='content_bor'> 
+        <image src='../../images/head.jpg'></image>
+      </view>
+      <text class='font_name'>张三</text>
+    </view>
+    <view class='content_box'>
+      <view class='content_bor'> 
+        <image src='../../images/head.jpg'></image>
+      </view>
+      <text class='font_name'>张三</text>
+    </view>
+    <view class='content_box'>
+      <view class='content_bor'> 
+        <image src='../../images/head.jpg'></image>
+      </view>
+      <text class='font_name'>张三</text>
+    </view>
+    <view class='content_box'>
+      <view class='content_bor'> 
+        <image src='../../images/head.jpg'></image>
+      </view>
+      <text class='font_name'>张三</text>
+    </view>
+</view>

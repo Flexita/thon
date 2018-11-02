@@ -1,0 +1,65 @@
+/* pages/checkPage/checkPage.wxss */
+.pageNo {
+  justify-content: flex-end;
+  position: relative;
+}
+.pageNo text{
+  margin-right: 8rpx;
+  margin-left: 8rpx;
+}
+.pageNo text.rowHead{
+  position: absolute;
+  left: 22rpx;
+}
+.pageNo input{
+  width: 112rpx;
+  height: 100%;
+  font-size: 28rpx;
+  text-align: center;
+}
+.review{
+  width: 100%;
+  margin-top: 30rpx;
+}
+.review textarea{
+  width: 100%;
+  padding: 0 30rpx;
+}
+.reviewImage{
+  margin-top: 45rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0 30rpx;
+}
+.reviewImage image{
+  width: 216rpx;
+  height: 216rpx;
+  margin-right: 12rpx;
+}
+.reviewImage .addImg{
+  width: 216rpx;
+  height: 216rpx;
+  text-align: center;
+  line-height: 216rpx;
+  font-size: 100rpx;
+  background: #eee;
+  position: relative;
+}
+.reviewImage .addImg text.crossX{
+  position: absolute;
+  width: 0;
+  height: 88rpx;
+  border: 1rpx solid #999;
+  top: 50%;
+  margin-top: -44rpx;
+}
+.reviewImage .addImg text.crossY{
+  position: absolute;
+  height: 0;
+  width: 88rpx;
+  top: 50%;
+  left: 50%;
+  margin-left: -44rpx;
+  border: 1rpx solid #999;
+}

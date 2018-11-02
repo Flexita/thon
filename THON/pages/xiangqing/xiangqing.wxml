@@ -1,0 +1,65 @@
+<!--pages/xiangqing/xiangqing.wxml-->
+<view class='header'>
+  <view class='Bitmap'>
+    <image src='../../images/list_img.png'></image>
+  </view>
+  <text class='font'>一千零一夜</text>
+  <text class='public_ls'>安徒生(著) / 王瑞琴(译)</text>
+  <text class='public_ls'>上海交通大学出版社</text>
+  <view class='test'>
+     <image src='../../images/con_xing2.png' class='bottimg'></image>
+     <image src='../../images/con_xing2.png' class='bottimg'></image>
+     <image src='../../images/con_xing2.png' class='bottimg'></image>
+     <image src='../../images/con_xing2.png' class='bottimg'></image>
+     <image src='../../images/con_xing2.png' class='bottimg'></image>
+     <text class='public_num'>10.0</text>
+  </view>
+</view>
+<view class='public_li_ler'>
+  <view class='cont_auto'>
+    <text class='Typeface'>推荐理由</text>
+  <text class='type-fot'>安徒生安徒生安徒生安徒生安徒生安徒生安徒生安徒生安徒生安徒生安徒生安徒生安徒生安徒生</text>
+  </view>
+  
+</view>
+<view class='public_cont'>
+  <view class='cont_auto'>
+    <text class='cont_pub_ls'>读后感</text>
+    <image src='../../images/bianji.png' class='conter_x' bindtap='imgclick'></image>
+  </view>
+</view>
+<input type='textarea' class='contentinput_box' hidden="{{contpub}}"></input>
+<view class='content_input'>
+  <view class='cont_cont_ler'>
+    <view class='cont_con_left'>
+      <view class='headebor'></view>
+      <text class='headname'>张依依</text>
+      <text class='cont_data'>2018-09-08</text>
+    </view>
+    <view class='content_con'>读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感</view>
+  </view>
+</view>
+<view class='content_input'>
+  <view class='cont_cont_ler'>
+    <view class='cont_con_left'>
+      <view class='headebor'></view>
+      <text class='headname'>张依依</text>
+      <text class='cont_data'>2018-09-08</text>
+    </view>
+    <view class='content_con'>读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感</view>
+  </view>
+</view>
+<view class='content_input'>
+  <view class='cont_cont_ler'>
+    <view class='cont_con_left'>
+      <view class='headebor'></view>
+      <text class='headname'>张依依</text>
+      <text class='cont_data'>2018-09-08</text>
+    </view>
+    <view class='content_con'>读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感读后感</view>
+  </view>
+</view>
+<view style='width:100%;height:124rpx;'></view>
+<view class='footer'>
+  <button class='but' bindtap='jump'>我要打卡</button>
+</view>

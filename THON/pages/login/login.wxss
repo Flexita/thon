@@ -1,0 +1,46 @@
+/* pages/login/login.wxss */
+.container{
+  background-image: url('https://cdn.zeplin.io/5ae32a567422687a8baa89c8/assets/2242AACF-0DBE-4D03-8188-8FC8133224A6.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.bg{
+  width: 100%;
+  height: 100%;
+}
+.bg image{
+  width: 646rpx;
+  height: 256rpx;
+  margin-top: 178rpx;
+  margin-left: 56rpx;
+}
+.container form{
+  width: 690rpx;
+  margin: 0 auto;
+  margin-top: 104rpx;
+  font-size: 16px;
+}
+.container form input{
+  padding: 30rpx;
+  border-bottom: 2px solid #314573;
+  color: #7c84a2;
+  position: relative;
+}
+.container form input.sc-code::after{
+  content: "获取验证码";
+  position: absolute;
+  right: 0;
+  top: 21px;
+  color: #19a2cf;
+}
+
+.container checkbox-group{
+  margin-top: 335rpx;
+  font-size: 14px;
+  color: #ffffff;
+}
+.container checkbox-group label checkbox{
+  width: 60rpx;
+  border-radius: 10rpx;
+  margin-right: 20rpx;
+}

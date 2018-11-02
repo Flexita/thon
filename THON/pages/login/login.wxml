@@ -1,0 +1,18 @@
+<!--pages/login/login.wxml-->
+<view class='.container'>
+  <view class='bg'>
+    <image src='../../images/loginLogo.png'></image>
+  </view>
+  <form>
+    <input type='text' placeholder='请输入手机号'></input>
+    <input class='sc-code' type='password' placeholder='请输入验证码'></input>
+    <navigator url='../' class='btn'>
+      <text>登录</text>
+    </navigator>
+  </form>
+  <checkbox-group>
+    <label>
+      <checkbox />同意遵守《明镜教育》平台的用户协议
+    </label>
+  </checkbox-group>
+</view>

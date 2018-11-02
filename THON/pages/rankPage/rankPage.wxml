@@ -1,0 +1,90 @@
+<!--pages/rankPage/rankPage.wxml-->
+<view class='container'>
+  <view class='rankHeader'>
+    <text class="wx:if='{{fontId == 1?'tapIn':''}}'" bindtap='tapAt' data-id='1'>班级</text>
+    <text class="wx:if='{{fontId == 2?'tapIn':''}}'" bindtap='tapAt' data-id='2'>学校</text>
+    <text class="wx:if='{{fontId == 3?'tapIn':''}}'" bindtap='tapAt' data-id='3'>城市</text>
+    <text class="wx:if='{{fontId == 4?'tapIn':''}}'" bindtap='tapAt' data-id='4'>全国</text>
+  </view>
+  <view class='rankList'>
+    <view class='rankGradLeft'>
+      <image src='../../images/golden.png'></image>
+    </view>
+    <view class='rankGradRight'>
+      <view class='rankInfo'>
+      <image src='../../images/head.jpg' class='avatar'></image>
+      <view class='userInfo'>
+        <text class='h'>张依依</text>
+        <text class='h span'>共打卡<text class='checkDate'>20次</text></text>
+      </view>
+      <view class='zan'>
+        <text>300</text>
+        <view class='zanIcon'>
+          <image src='../../images/openZan.png'></image>
+        </view>
+      </view>
+    </view>
+    </view>
+  </view>
+  <view class='rankList'>
+    <view class='rankGradLeft'>
+      <image src='../../images/silver.png'></image>
+    </view>
+    <view class='rankGradRight'>
+      <view class='rankInfo'>
+      <image src='../../images/head.jpg' class='avatar'></image>
+      <view class='userInfo'>
+        <text class='h'>张依依</text>
+        <text class='h span'>共打卡<text class='checkDate'>20次</text></text>
+      </view>
+      <view class='zan'>
+        <text>300</text>
+        <view class='zanIcon'>
+          <image src='../../images/openZan.png'></image>
+        </view>
+      </view>
+    </view>
+    </view>
+  </view>
+  <view class='rankList'>
+    <view class='rankGradLeft'>
+      <image src='../../images/cooper.png'></image>
+    </view>
+    <view class='rankGradRight'>
+      <view class='rankInfo'>
+      <image src='../../images/head.jpg' class='avatar'></image>
+      <view class='userInfo'>
+        <text class='h'>张依依</text>
+        <text class='h span'>共打卡<text class='checkDate'>20次</text></text>
+      </view>
+      <view class='zan'>
+        <text>300</text>
+        <view class='zanIcon'>
+          <image src='../../images/openZan.png'></image>
+        </view>
+      </view>
+    </view>
+    </view>
+  </view>
+  <view class='rankList' wx:for="{{students}}" wx:for-index= 'id' >
+    <view class='rankGradLeft'>
+      <text class='h rankNo'>{{id+4}}</text>
+    </view>
+    <view class='rankGradRight'>
+      <view class='rankInfo'>
+        <image src='../../images/head.jpg' class='avatar'></image>
+        <view class='userInfo'>
+          <text class='h'>{{item.sname}}</text>
+          <text class='h span'>共打卡<text class='checkDate'>{{item.checkNum}}次</text></text>
+        </view>
+        <view class='zan'>
+          <text>{{item.zanNum}}</text>
+          <view class='zanIcon'>
+            <image wx:if="{{collection}}" src="../../images/openZan.png" bindtap="toCollect" ></image>
+            <image src='../../images/closeZan.png' bindtap="toCollect"></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

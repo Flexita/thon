@@ -1,0 +1,16 @@
+<!--pages/readMission/readMission.wxml-->
+<view class='container'>
+  <navigator url='../checkRecord/checkRecord' class='bookCard' wx:for='{{5}}'>
+    <image src='../../images/list_img.png'></image>
+    <view class='cardInfo'>
+      <text class='h h1'>一千零一夜</text>
+      <text class='h'>2018-08-10 至 2018-08</text>
+      <text class='h clockIn'>打卡 <text class='checkDate'>7/20</text>天</text>
+    </view>
+    <image class='haveDone' src='../../images/haveDone.png'></image>
+  </navigator>
+  <navigator url="../emptyTesk/emptyTesk" class='littleBtn'>
+    <image src='../../images/plus.png' class='plus'></image>
+    <text>创建任务</text>
+  </navigator>
+</view>
